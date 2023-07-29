@@ -781,7 +781,19 @@ section .container {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+.container-portfolio-image {
+  /* width: auto; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  /* width: 700px; */
+}
+.conts-image {
+  width: 700px;
+}
+/* .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
 
@@ -934,7 +946,7 @@ section .container {
 .portfolio .portfolio-wrap:hover .portfolio-info::after {
   bottom: 15px;
   right: 15px;
-}
+} */
 
 /*--------------------------------------------------------------
 # Portfolio Details
